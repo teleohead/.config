@@ -1,0 +1,9 @@
+[user]
+name = Yubing Zhang
+email = joseph.zyb@gmail.com
+
+[core]
+excludesfile = $XDG_CONFIG_HOME/git/gitignore
+
+[init]
+defaultBranch = master
