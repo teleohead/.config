@@ -1,0 +1,9 @@
+[submodule "nvim/plugged/vim-airline-themes"]
+	path = nvim/plugged/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "nvim/plugged/vim-airline"]
+	path = nvim/plugged/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "nvim/plugged/vim-deus"]
+	path = nvim/plugged/vim-deus
+	url = https://github.com/ajmwagar/vim-deus
