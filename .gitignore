@@ -1,0 +1,15 @@
+# ignore everything
+/*
+/*/
+
+# but these:
+!/alacritty/
+!/git/
+!/neofetch/
+!/nvim/
+!/.gitmodules
+!/LICENSE
+!/README
+
+# and ... itself
+!/.gitignore
