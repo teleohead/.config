@@ -10,6 +10,8 @@
 !/.gitmodules
 !/LICENSE
 !/README
+!/zim/
+!/lazygit/
 
 # and ... itself
 !/.gitignore

@@ -18,7 +18,7 @@ set ignorecase
 set smartcase
 
 " codes about remapping (individual file)
-source $XDG_CONFIG_HOME/nvim/remap.vim
+source $XDG_CONFIG_HOME/nvim/mappings.vim
 
 call plug#begin('$XDG_CONFIG_HOME/nvim/plugged')
 Plug 'vim-airline/vim-airline'
