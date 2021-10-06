@@ -1,0 +1,6 @@
+alias c='clear'
+alias gg='git clone'
+alias ra='ranger'
+alias vi='nvim'
+alias arm='arch -64'
+alias ka='k -a'
