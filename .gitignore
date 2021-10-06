@@ -7,10 +7,12 @@
 !/git/
 !/neofetch/
 !/nvim/
+/nvim/plugged/
 !/.gitmodules
 !/LICENSE
 !/README
 !/zim/
+/zim/modules/
 !/lazygit/
 
 # and ... itself
