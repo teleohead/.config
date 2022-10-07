@@ -8,6 +8,7 @@ set cursorline
 set wrap
 set showcmd
 set wildmenu
+set filetype
 " especially for COC.NVIM
 set updatetime=100
 set signcolumn=yes
@@ -76,6 +77,7 @@ noremap tmi :+tabmove<CR>
 " disable the s key
 noremap s <nop>
 
+
 call plug#begin('$XDG_CONFIG_HOME/nvim/plugged')
 " Status bar
 Plug 'vim-airline/vim-airline'
@@ -86,6 +88,8 @@ Plug 'ajmwagar/vim-deus'
 Plug 'frazrepo/vim-rainbow'
 " THE COC.NVIM
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" vimtex
+Plug 'lervag/vimtex'
 
 call plug#end()
 
@@ -147,5 +151,9 @@ let g:coc_global_extensions = [
 			\ 'coc-vimlsp',
 			\ 'coc-python',
 			\ 'coc-prettier',
+			\ 'coc-vimtex',
 			\ 'coc-pairs']
 
+
+" coc-vimtex
+let g:tex_flavor = 'latex'
