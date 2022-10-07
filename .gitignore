@@ -27,3 +27,6 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Privacy Areas
+/lazygit/state.yml
