@@ -77,6 +77,8 @@ noremap tmi :+tabmove<CR>
 " disable the s key
 noremap s <nop>
 
+" fast execute
+noremap X :!
 
 call plug#begin('$XDG_CONFIG_HOME/nvim/plugged')
 " Status bar
