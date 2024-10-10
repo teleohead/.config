@@ -9,6 +9,7 @@ recentrepos:
 - /Users/zybium/Developer/Nest
 - /Users/zybium/teleohead
 startuppopupversion: 5
-customcommandshistory: []
+customcommandshistory:
+- help
 hidecommandlog: false
 ignorewhitespaceindiffview: false

@@ -17,7 +17,7 @@
 !/ranger/
 
 # and ... itself
-!/.gitignore
+# !/.gitignore
 
 # OS generated files #
 ######################
@@ -30,4 +30,4 @@ ehthumbs.db
 Thumbs.db
 
 # Privacy Areas
-/lazygit/state.yml
+lazygit/state.yml
