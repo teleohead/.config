@@ -13,6 +13,7 @@ set filetype
 set updatetime=100
 set signcolumn=yes
 
+set tabstop=4
 
 " searching options
 set hlsearch
@@ -25,7 +26,7 @@ set smartcase
 
 let mapleader=" "
 
-" edit vimrc from anywhere
+" access vimrc anywhere
 noremap <LEADER>rc :e $XDG_CONFIG_HOME/nvim/init.vim<CR>
 " save & quit
 noremap S :w<CR>

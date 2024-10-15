@@ -1,0 +1,6 @@
+"java.configuration.runtimes": [
+  {
+    "name": "JavaSE-11",
+    "path": "/opt/homebrew/opt/openjdk@11",
+  },
+]
