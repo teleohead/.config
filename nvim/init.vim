@@ -86,12 +86,15 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 " Colour scheme
 Plug 'ajmwagar/vim-deus'
+Plug 'morhetz/gruvbox'
 " Rainbow Colour Parentheses
 Plug 'frazrepo/vim-rainbow'
 " THE COC.NVIM
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " vimtex
 Plug 'lervag/vimtex'
+" typst.vim
+Plug 'kaarmu/typst.vim'
 
 call plug#end()
 
@@ -102,8 +105,8 @@ set termguicolors
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 
-set background=dark    " Setting dark mode
-colorscheme deus
+set background=light   " Setting dark mode
+colorscheme gruvbox
 let g:deus_termcolors=256
 
 " vim-rainbow
@@ -153,6 +156,7 @@ let g:coc_global_extensions = [
 			\ 'coc-vimlsp',
 			\ 'coc-python',
 			\ 'coc-prettier',
+			\ 'coc-java',
 			\ 'coc-vimtex',
 			\ 'coc-pairs']
 
