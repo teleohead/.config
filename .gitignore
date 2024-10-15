@@ -15,6 +15,7 @@
 /zim/modules/
 !/lazygit/
 !/ranger/
+!/tmux/
 
 # and ... itself
 # !/.gitignore
