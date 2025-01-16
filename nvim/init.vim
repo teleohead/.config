@@ -91,7 +91,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 " Colour scheme
 Plug 'ajmwagar/vim-deus'
-Plug 'morhetz/gruvbox'
+Plug 'nordtheme/vim'
 " Rainbow Colour Parentheses
 Plug 'frazrepo/vim-rainbow'
 " THE COC.NVIM
@@ -110,8 +110,10 @@ set termguicolors
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 
-colorscheme deus
-let g:deus_termcolors=256
+colorscheme nord
+" colorscheme deus
+" let g:deus_termcolors=256
+
 
 " vim-rainbow
 let g:rainbow_active=1
