@@ -100,6 +100,10 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'lervag/vimtex'
 " typst.vim
 Plug 'kaarmu/typst.vim'
+" Snippets
+Plug 'sirver/ultisnips'
+" Tex Conceal
+Plug 'KeitaNakamura/tex-conceal.vim'
 
 call plug#end()
 
@@ -169,3 +173,17 @@ let g:coc_global_extensions = [
 
 " coc-vimtex
 let g:tex_flavor = 'latex'
+let g:vimtex_view_method='skim'
+let g:vimtex_quickfix_mode=0
+" python env
+let g:python3_host_prog = '/usr/bin/python3'
+
+" Snippets!
+let g:UltiSnipsExpandTrigger = '<tab>'
+let g:UltiSnipsJumpForwardTrigger = '<tab>'
+let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+
+" Conceal
+set conceallevel=1
+let g:tex_conceal='abdmg'
+hi Conceal ctermbg=none

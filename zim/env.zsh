@@ -10,6 +10,9 @@ export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
 export PATH="/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH"
 
+# Zathura
+export DBUS_SESSION_BUS_ADDRESS="unix:path=$DBUS_LAUNCHD_SESSION_BUS_SOCKET"
+
 
 # BEGIN opam configuration
 # This is useful if you're using opam as it adds:
