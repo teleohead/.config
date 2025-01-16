@@ -20,6 +20,7 @@
 /lazygit/state.yml
 /zim/modules/
 /zim/*.zwc
+/zim/*.old
 /zim/.latest_version
 
 # OS generated files #
