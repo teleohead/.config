@@ -12,13 +12,15 @@
 !/LICENSE
 !/README
 !/zim/
-/zim/modules/
 !/lazygit/
 !/ranger/
 !/tmux/
 
-# and ... itself
-# !/.gitignore
+# remove these...
+/lazygit/state.yml
+/zim/modules/
+/zim/*.zwc
+/zim/.latest_version
 
 # OS generated files #
 ######################
