@@ -182,6 +182,9 @@ let g:python3_host_prog = '/usr/bin/python3'
 let g:UltiSnipsExpandTrigger = '<tab>'
 let g:UltiSnipsJumpForwardTrigger = '<tab>'
 let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+" let g:UltiSnipsSnippetsDir = $HOME."/.config/nvim/ultisnips"
+let g:UltiSnipsSnippetDirectories = [$HOME.'/.config/nvim/ultisnips']
+
 
 " Conceal
 set conceallevel=1
