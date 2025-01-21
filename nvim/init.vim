@@ -30,8 +30,10 @@ set smartcase
 
 let mapleader=" "
 
-" access vimrc anywhere
+" access certain files anywhere
 noremap <LEADER>rc :e $XDG_CONFIG_HOME/nvim/init.vim<CR>
+noremap <LEADER>sp :e $XDG_CONFIG_HOME/nvim/ultisnips/all.snippets<CR>
+
 " save & quit
 noremap S :w<CR>
 noremap Q :q<CR>
@@ -175,6 +177,9 @@ let g:coc_global_extensions = [
 let g:tex_flavor = 'latex'
 let g:vimtex_view_method='skim'
 let g:vimtex_quickfix_mode=0
+
+nnoremap B :w<CR>:VimtexCompile<CR>
+
 " python env
 let g:python3_host_prog = '/usr/bin/python3'
 
@@ -190,3 +195,4 @@ let g:UltiSnipsSnippetDirectories = [$HOME.'/.config/nvim/ultisnips']
 set conceallevel=1
 let g:tex_conceal='abdmg'
 hi Conceal ctermbg=none
+

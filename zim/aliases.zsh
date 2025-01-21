@@ -10,3 +10,13 @@ alias nm='neomutt'
 alias py='python3'
 alias tsc='tmux source $XDG_CONFIG_HOME/tmux/tmux.conf'
 alias trc='vi $XDG_CONFIG_HOME/tmux/tmux.conf'
+
+function editnotes {
+    local file=~/Desktop/$1/main.tex
+    if [ -f "$file" ]; then
+        vi "$file"
+    else
+        echo "Note not found: $file"
+    fi
+}
+
